@@ -1,0 +1,30 @@
+--------------- Build Started: 07/20/2018 10:31:04 Project: Creative, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\main.c -o .\CortexM3\ARM_GCC_493\Debug\main.o
+.\main.c: In function 'ParseAnswer':
+.\main.c:393:25: warning: pointer targets in passing argument 1 of 'UART_Blue_PutString' differ in signedness [-Wpointer-sign]
+     UART_Blue_PutString(AnsFromRobot);
+                         ^
+In file included from Generated_Source\PSoC5/project.h:22:0,
+                 from .\main.c:14:
+Generated_Source\PSoC5/UART_Blue.h:139:10: note: expected 'const char8 *' but argument is of type 'uint8 *'
+     void UART_Blue_PutString(const char8 string[]) ;
+          ^
+.\main.c:397:12: warning: unused variable 'temp1' [-Wunused-variable]
+     uint16 temp1;
+            ^
+.\main.c:390:11: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+     uint8 len;
+           ^
+.\main.c: In function 'Read_from_kinect':
+.\main.c:602:11: warning: unused variable 'i' [-Wunused-variable]
+       int i = 0;
+           ^
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_493\Debug\Creative.a .\CortexM3\ARM_GCC_493\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_493\Debug\isr_tx.o .\CortexM3\ARM_GCC_493\Debug\isr_rx.o .\CortexM3\ARM_GCC_493\Debug\CyBootAsmGnu.o .\CortexM3\ARM_GCC_493\Debug\CyDmac.o .\CortexM3\ARM_GCC_493\Debug\CyFlash.o .\CortexM3\ARM_GCC_493\Debug\CyLib.o .\CortexM3\ARM_GCC_493\Debug\cyPm.o .\CortexM3\ARM_GCC_493\Debug\CySpc.o .\CortexM3\ARM_GCC_493\Debug\cyutils.o .\CortexM3\ARM_GCC_493\Debug\clock_4.o .\CortexM3\ARM_GCC_493\Debug\UART_Blue.o .\CortexM3\ARM_GCC_493\Debug\UART_Blue_PM.o .\CortexM3\ARM_GCC_493\Debug\UART_Blue_INT.o .\CortexM3\ARM_GCC_493\Debug\UART_Blue_BOOT.o .\CortexM3\ARM_GCC_493\Debug\UART.o .\CortexM3\ARM_GCC_493\Debug\UART_PM.o .\CortexM3\ARM_GCC_493\Debug\UART_INT.o .\CortexM3\ARM_GCC_493\Debug\UART_BOOT.o .\CortexM3\ARM_GCC_493\Debug\UART_Blue_IntClock.o .\CortexM3\ARM_GCC_493\Debug\UART_IntClock.o .\CortexM3\ARM_GCC_493\Debug\SIR.o .\CortexM3\ARM_GCC_493\Debug\isr_rx_2.o .\CortexM3\ARM_GCC_493\Debug\Rx_2.o .\CortexM3\ARM_GCC_493\Debug\to_Rx_2.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_493\Debug\Creative.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM3\ARM_GCC_493\Debug\Creative.elf .\CortexM3\ARM_GCC_493\Debug\main.o .\CortexM3\ARM_GCC_493\Debug\ISR_BLUE.o .\CortexM3\ARM_GCC_493\Debug\ISR_1.o .\CortexM3\ARM_GCC_493\Debug\cymetadata.o .\CortexM3\ARM_GCC_493\Debug\Cm3Start.o .\CortexM3\ARM_GCC_493\Debug\Creative.a "F:\PSoC\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_493\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -g -ffunction-sections -Og -ffat-lto-objects -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_493\Debug/Creative.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -Wl,--end-group
+cyelftool.exe -C C:\Users\dell1\Desktop\final_ccc\Creative.cydsn\CortexM3\ARM_GCC_493\Debug\Creative.elf --flash_row_size 256 --flash_size 262144
+cyelftool.exe -S C:\Users\dell1\Desktop\final_ccc\Creative.cydsn\CortexM3\ARM_GCC_493\Debug\Creative.elf
+Flash used: 3840 of 262144 bytes (1.5%).
+SRAM used: 3269 of 65536 bytes (5.0%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 07/20/2018 10:31:05 ---------------

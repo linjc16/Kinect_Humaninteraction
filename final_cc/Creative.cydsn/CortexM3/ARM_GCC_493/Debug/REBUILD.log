@@ -1,0 +1,25 @@
+--------------- Rebuild Started: 07/19/2018 17:06:08 Project: main.c, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -Wno-main -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_493\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects -c .\main.c -o .\CortexM3\ARM_GCC_493\Debug\main.o
+.\main.c: In function 'ParseAnswer':
+.\main.c:401:10: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+     char temp[32];
+          ^
+.\main.c:363:11: warning: variable 'len' set but not used [-Wunused-but-set-variable]
+     uint8 len;
+           ^
+.\main.c: In function 'Read_from_kinect':
+.\main.c:596:11: warning: unused variable 'i' [-Wunused-variable]
+       int i = 0;
+           ^
+.\main.c:645:11: warning: unused variable 'temp' [-Wunused-variable]
+      char temp[64];
+           ^
+.\main.c: In function 'main':
+.\main.c:789:13: warning: unused variable 'i' [-Wunused-variable]
+         int i = 0;
+             ^
+.\main.c: In function 'ParseAnswer':
+.\main.c:408:11: warning: 'temp1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     temp1 = temp1 + bias;
+           ^
+--------------- Rebuild Succeeded: 07/19/2018 17:06:09 ---------------

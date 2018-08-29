@@ -1,0 +1,1 @@
+'C:\Users\lenovo\Desktop\fun\Creative.cydsn\Generated_Source\PSoC5\isr_rx.c' -o .o -T ARM_C_FILE -I 'C:\Users\lenovo\Desktop\fun\Creative.cydsn' -I 'C:\Users\lenovo\Desktop\fun\Creative.cydsn\Generated_Source\PSoC5' -f 'C:\Users\lenovo\Desktop\fun\Creative.cydsn\CortexM3\ARM_GCC_493\Debug\.deps\ARM_C_FILE.d'

@@ -1,0 +1,14 @@
+# Creative
+# 2018-07-20 00:41:52Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_io "Rx_1(0)" iocell 4 5
+set_io "Tx_1(0)" iocell 4 4
+set_io "SIR(0)" iocell 1 6
+set_io "Rx_2(0)" iocell 4 0
+set_io "to_Rx_2(0)" iocell 4 1

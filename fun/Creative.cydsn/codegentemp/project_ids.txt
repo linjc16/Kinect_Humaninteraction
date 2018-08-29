@@ -1,0 +1,5 @@
+C:\Users\lenovo\Desktop\fun\Creative.cydsn\Creative.cyprj|c1dfe544-818f-40fa-87e6-d95f5d4ace9a
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|a1e08bcf-1c1c-4ceb-96ca-6f9d638f43da
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1630dd4a-1f6f-4b9a-b4ba-4c8fa03eb4ff
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|b658dd21-825d-4e17-8cf3-8aa0ad402a38
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|7fcf8a62-339a-42c1-a922-1d6b2f6e3d18

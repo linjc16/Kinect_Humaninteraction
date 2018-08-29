@@ -1,0 +1,5 @@
+C:\Users\dell1\Desktop\final_ccc\Creative.cydsn\Creative.cyprj|98539f0d-7e29-42ad-ba56-0e4684e73591
+F:\PSoC\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|eb34cc5b-17ac-4696-ae5e-3eadac919c54
+F:\PSoC\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|bf1bb514-e21d-4fc6-a215-185177bca2e1
+F:\PSoC\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|b306db91-cc82-4a97-a476-93e3beaa6501
+F:\PSoC\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|651c53f5-f98e-45b6-b414-19e0d3577d06
